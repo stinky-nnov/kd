@@ -1,4 +1,6 @@
 git add -A
-git commit -m "$(date)"
+echo -n 'Comment: '
+read line
+git commit -m "${line}"
 #git remote add origin git@github.com:stinky-nnov/kd.git
 git push origin master
