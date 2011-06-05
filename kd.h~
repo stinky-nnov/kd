@@ -51,6 +51,7 @@ Q_OBJECT
     QTextBrowser *added_items;
     QSettings *app_settings;
     QSettings *menu_file;
+    QSettings *cards;
     Logger *logger;
     double totalprice;
     

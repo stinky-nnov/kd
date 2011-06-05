@@ -42,7 +42,7 @@ Q_OBJECT
     QStatusBar *status_bar;
     QSplitter *central_widget;
     QHBoxLayout *h_layout;
-    QHBoxLayout *top_h_layout;
+    QHBoxLayout *bottom_h_layout;
     QVBoxLayout *right_v_layout;
     QTreeWidget *items_tree;
     QLineEdit *item_input;

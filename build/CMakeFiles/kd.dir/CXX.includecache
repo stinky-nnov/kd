@@ -118,6 +118,12 @@ QDateTime
 QLocalSocket
 -
 
+/home/stinky/projects/kd/main.cpp
+QtGui/QApplication
+-
+kd.h
+/home/stinky/projects/kd/kd.h
+
 /usr/include/qt4/Gentoo/gentoo-qconfig.h
 
 /usr/include/qt4/Qt3Support/q3cstring.h

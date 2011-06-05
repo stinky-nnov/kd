@@ -8,9 +8,9 @@ kd::kd()
     item_input = new QLineEdit;
     item_button = new QPushButton(tr("Add"));
     item_button->setDefault(true);
-    top_h_layout = new QHBoxLayout;
-    top_h_layout->addWidget(item_input);
-    top_h_layout->addWidget(item_button);
+    bottom_h_layout = new QHBoxLayout;
+    bottom_h_layout->addWidget(item_input);
+    bottom_h_layout->addWidget(item_button);
     
     items_tree = new QTreeWidget;
     items_tree->setColumnCount(2);
@@ -25,9 +25,10 @@ kd::kd()
     /* Create right side (top area, suggest label and list of added items) */
     item_suggest = new QLabel;
     right_v_layout = new QVBoxLayout;
-    right_v_layout->addLayout(top_h_layout);
+    
     right_v_layout->addWidget(item_suggest);
     right_v_layout->addWidget(central_widget);
+    right_v_layout->addLayout(bottom_h_layout);
     right_widget = new QWidget;
     right_widget->setLayout(right_v_layout);
    
@@ -197,7 +198,7 @@ void kd::onAddButtonPress(void)
 	  else
 	    dsc_val += 10 - (dsc_val % 10);
 	
-	totalprice -= dsc_val;
+	totalprice -= dsc_val;	// Discount itself
 	QTextStream(&tmpstr1) << "Discount" << ";"<< "Discount "<< discount << "%, card " << cardnum << " " << cardholder << ";" << 1 << ";-" << dsc_val;
 	added_items->append( tmpstr1 );
 	logger->writeLine( tmpstr1 );
