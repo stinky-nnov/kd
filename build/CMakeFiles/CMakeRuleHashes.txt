@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+98531ebfcc1b32b45c0e4e5deca6e0dd kd.moc
+400a63ab3c76ee1bd55ed4ca0bbb4a25 logger.moc

@@ -1,0 +1,90 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/stinky/projects/kd/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/stinky/projects/kd/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/stinky/projects/kd/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -I/usr/include/qt4   -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c /home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c: В функции ‘main’:
+/home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: ошибка: ‘Q_WS_WIN’ не описан (первое использование в этой функции)
+/home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: ошибка: (Сообщение о неописанном идентификаторе выдается один раз
+/home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: ошибка: для каждой функции, в которой он используется.)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o] Ошибка 1
+gmake[1]: Leaving directory `/home/stinky/projects/kd/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec/fast] Ошибка 2
+
+File /home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_WIN
+  cmakeRequireSymbol(0,&Q_WS_WIN);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/stinky/projects/kd/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/stinky/projects/kd/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/stinky/projects/kd/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -I/usr/include/qt4   -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c /home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c: В функции ‘main’:
+/home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: ошибка: ‘Q_WS_QWS’ не описан (первое использование в этой функции)
+/home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: ошибка: (Сообщение о неописанном идентификаторе выдается один раз
+/home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: ошибка: для каждой функции, в которой он используется.)
+gmake[1]: Leaving directory `/home/stinky/projects/kd/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o] Ошибка 1
+gmake: *** [cmTryCompileExec/fast] Ошибка 2
+
+File /home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_QWS
+  cmakeRequireSymbol(0,&Q_WS_QWS);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/stinky/projects/kd/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/stinky/projects/kd/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/stinky/projects/kd/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -I/usr/include/qt4   -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c /home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c: В функции ‘main’:
+/home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: ошибка: ‘Q_WS_MAC’ не описан (первое использование в этой функции)
+/home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: ошибка: (Сообщение о неописанном идентификаторе выдается один раз
+/home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: ошибка: для каждой функции, в которой он используется.)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o] Ошибка 1
+gmake[1]: Leaving directory `/home/stinky/projects/kd/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec/fast] Ошибка 2
+
+File /home/stinky/projects/kd/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_MAC
+  cmakeRequireSymbol(0,&Q_WS_MAC);
+#endif
+  return 0;
+}
+

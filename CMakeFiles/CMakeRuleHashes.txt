@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+72ec157115802c6c66b89f72e0f93282 kd.moc

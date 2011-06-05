@@ -1,0 +1,5 @@
+sudo apt-get install build-essential qt4-dev-tools libqt4-dev cmake
+
+cmake CMakeLists.txt
+make
+
